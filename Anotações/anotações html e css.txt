@@ -1,0 +1,65 @@
+                                                                 Codigos de Html e css
+codigos no css
+inico do css por esse codigo
+@charset "UTF-8";
+____________________________
+variaveis no css 
+
+root {
+    --cor0: #c5ebd6;
+    --cor01:#83e1ad;
+    --cor02:#3ddc84;
+    --cor03:#2fa866;
+    --cor04:#1a5c37;
+    --cor05:#063d1e;
+}  
+body {
+    background-color: var(--cor0);
+}
+_____________________________
+configurações Globais no css
+* {
+toda ordem feita aqui dentro, valera para todo
+o código
+}
+______________________________________________
+Arredonda todas as bordas 
+
+Border-radius:10px;
+
+Arredonda somente as bordas selecionadas
+
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+____________________________________________
+efeito degrader de cores
+ 
+background imge: linear-gradient(to bottom,var(--cor03),var(--cor05))
+______________________________________________
+paragrafo no css (text-indent:30px;
+
+texto justificado no css (text-align: justify;)
+
+Espaços nos textos (margin: 15px 0px;)
+margin negativa vai para fora  (-10px)
+margin positiva vai para dentro (10px)
+
+Espaços entre linhas (line-height:2em;)
+
+Grossura das letras (font-size:1em;)
+_______________________________________________
+tempo da animação (transition-duration:1s;)
+animação (hover {} )
+ajeita a ul para dentro do padding (list-style-position: inside;
+quebra a lista em colunas (columns: 2;
+list-styte-type: (põe emoji na frente da lista)
+espaço no emoli da ul (00A0)
+procurar emoji na (emojipedia)
+
+
+
+  
+
+
+
+-----------------------------
