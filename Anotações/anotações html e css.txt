@@ -1,3 +1,5 @@
+site para criar QRcode https://www.qr-code-generator.com
+
                                                                  Codigos de Html e css
 codigos no css
 inico do css por esse codigo
