@@ -35,8 +35,17 @@ border-bottom-left-radius: 10px;
 border-bottom-right-radius: 10px;
 ____________________________________________
 efeito degrader de cores
- 
-background imge: linear-gradient(to bottom,var(--cor03),var(--cor05))
+
+background image: linear-gradient(to bottom,var(--cor03),var(--cor05))
+
+imagens dentro da div
+
+background-image: url("caminho/nome da imagem";
+
+imagem uma do lado da outra
+
+display: inline-block;
+
 ______________________________________________
 paragrafo no css (text-indent:30px;
 

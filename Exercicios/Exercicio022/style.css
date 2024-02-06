@@ -8,17 +8,34 @@ div.quadrada {
     border-radius: 10px;
 }
 
+body {
+    background-image: url(imagens/wallpaper006.jpg);
+}
+
 
 #q1 {
     background-image: linear-gradient(to right, blue, gray);
 }
 
 #q2 {
-    background-image: url("imagens/favicon.ico");
+    background-image: url("imagens/pattern001.png");
 
 }
 
 #q3 {
 
     background-image: linear-gradient(to bottom, red, orange);
+}
+
+#q4 {
+    background-image: url(imagens/wallpaper005.jpg);
+ 
+}
+
+#q5 {
+    background-image: url(imagens/pattern004.png);
+}
+
+#q6 {
+    background-image: url(imagens/wallpaper001.jpg);
 }
