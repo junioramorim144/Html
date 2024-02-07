@@ -44,6 +44,8 @@ imagem uma do lado da outra: display: inline-block;
 
 posição da imagem dentro da div:background-position: left bottom;
 
+Altura da tela branca: height:98vh
+
 ______________________________________________
 paragrafo no css (text-indent:30px;
 
@@ -56,6 +58,16 @@ margin positiva vai para dentro (10px)
 Espaços entre linhas (line-height:2em;)
 
 Grossura das letras (font-size:1em;)
+
+navegador gerencia a imagem: background-size:auto;
+
+tamanho fixo:background-size:px ou %;
+
+mostra 100% da imagem sem cortar: background-size:container;
+
+faz cortes mas preenche a tela inteira: background-size:cover;
+
+
 _______________________________________________
 tempo da animação (transition-duration:1s;)
 animação (hover {} )
