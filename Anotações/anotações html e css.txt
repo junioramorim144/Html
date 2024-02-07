@@ -63,7 +63,7 @@ navegador gerencia a imagem: background-size:auto;
 
 tamanho fixo:background-size:px ou %;
 
-mostra 100% da imagem sem cortar: background-size:container;
+mostra 100% da imagem sem cortar: background-size:contain;
 
 faz cortes mas preenche a tela inteira: background-size:cover;
 
