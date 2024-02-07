@@ -38,13 +38,11 @@ efeito degrader de cores
 
 background image: linear-gradient(to bottom,var(--cor03),var(--cor05))
 
-imagens dentro da div
+imagens dentro da div:  background-image: url("caminho/nome da imagem";
 
-background-image: url("caminho/nome da imagem";
+imagem uma do lado da outra: display: inline-block;  
 
-imagem uma do lado da outra
-
-display: inline-block;
+posição da imagem dentro da div:background-position: left bottom;
 
 ______________________________________________
 paragrafo no css (text-indent:30px;
