@@ -107,6 +107,9 @@ ______________________________________________________
 
  Transform: translate (20px, 20px)  mexe para direita e mexe para baixo 
 
+ Transforma tudo em letras maiúsculas: text-transform: uppercase;
+ Outra variação de letras maiúsculas : font-variant: small-caps;   
+
             projeto desafio cap 19
 https://professorguanabara.github.io/projeto-cordel/
 
