@@ -9,7 +9,7 @@ div.quadrada {
 }
 
 body {
-    background-image: url(imagens/wallpaper006.jpg);
+    background-image: url(../imagens/wallpaper006.jpg);
 }
 
 
@@ -18,7 +18,7 @@ body {
 }
 
 #q2 {
-    background-image: url(imagens/pattern001.png);
+    background-image: url(../imagens/pattern001.png);
 
 }
 
@@ -28,14 +28,14 @@ body {
 }
 
 #q4 {
-    background-image: url(imagens/wallpaper005.jpg);
+    background-image: url(../imagens/wallpaper005.jpg);
  
 }
 
 #q5 {
-    background-image: url(imagens/pattern004.png);
+    background-image: url(../imagens/pattern004.png);
 }
 
 #q6 {
-    background-image: url(imagens/wallpaper001.jpg);
+    background-image: url(../imagens/wallpaper001.jpg);
 }
