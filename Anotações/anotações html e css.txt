@@ -110,6 +110,12 @@ ______________________________________________________
  Transforma tudo em letras maiúsculas: text-transform: uppercase;
  Outra variação de letras maiúsculas : font-variant: small-caps;   
 
-            projeto desafio cap 19
-https://professorguanabara.github.io/projeto-cordel/
+__________________________________________________________
+                   Criação de tabela
+
+          Hierarquia de tabelas (Simples)
+          TABLE = tabela
+          TABLE ROW = linha de tabela
+          TABLE HEADER = cabeçalho de tabela
+          TABLE DATA = dado de tabela         
 
