@@ -119,5 +119,10 @@ __________________________________________________________
           TABLE HEADER = cabeçalho de tabela
           TABLE DATA = dado de tabela
 
-          border-collapse: collapse; juntas as bordas         
+          border-collapse: collapse; juntas as bordas
+          text-align: center;(alinhamento Horizontal)
+          vertical-align: top;(alinhamento vertical)
+          border: 1px solid black; = linhas nas tabelas
+
+         
 
