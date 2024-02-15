@@ -119,10 +119,30 @@ __________________________________________________________
           TABLE HEADER = cabeçalho de tabela
           TABLE DATA = dado de tabela
 
+
+          ANATOMIA PARA TABELA GRANDE
+            TABLE
+               CAPTION
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH
+
           border-collapse: collapse; juntas as bordas
           text-align: center;(alinhamento Horizontal)
           vertical-align: top;(alinhamento vertical)
           border: 1px solid black; = linhas nas tabelas
+
+
+          colspan"2" = faz a células ocupar duas colunas
+
+          rowspan"2" = faz a células ocupar duas linhas
+
+
+          Efeio zebrado = tbody > tr:nth-child(2n) {
+        background-color: lightgray;
 
          
 

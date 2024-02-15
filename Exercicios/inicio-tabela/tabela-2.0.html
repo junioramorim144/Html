@@ -11,9 +11,30 @@
         font-family: Arial, Helvetica, sans-serif;
     }
     
+    caption {
+        background-color: rgba(0, 0, 0, 0.61);
+        color: white;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
     table  {
         width: 500px;
         border-collapse: collapse;
+        margin: auto;
+        position: relative;
+    }
+
+    thead > tr > th {
+        position: sticky;
+        top: -1px;
+    }
+
+
+
+     h1{
+        padding-left: 350px;
+        
     }
     
     th {
@@ -24,26 +45,27 @@
     th, td {
         border: 1px solid black;
         padding: 10px;
-        text-align: center;
-        
+        text-align: center;  
     }
+
+    tbody > tr:nth-child(2n) {
+        background-color: lightgray;
+    }
+
     td.num {
         text-align: right;
     }
+
     h1 {
         margin-left:120px;
     }
     
 
-
-
-
-
 </style>
 <body>
     
 
-    >
+    
 
 
     <!--ANATOMIA PARA TABELA GRANDE
@@ -56,9 +78,10 @@
             TFOOT
                 TR, TD, TH
             -->
+            <h1><strong>Tabela Grande</strong></h1>
     <table>
 
-        <h1><strong>Tabela Grande</strong></h1>
+        
 
 
 
@@ -69,7 +92,7 @@
         <thead>
             <tr>
                 <th scope="col">Estado</th>
-                <th scope="col">População</th>
+                <th scope="col" style="width: 50px;">População</th>
             </tr>
         </thead>
 
@@ -197,6 +220,14 @@
     </table>
 
 
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam laboriosam quae amet reprehenderit vel temporibus dolorum optio esse! Quisquam cumque temporibus consectetur asperiores porro, quam perspiciatis fugit necessitatibus eos quis! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam alias distinctio temporibus eius atque est eligendi rem ad maxime error minima, excepturi quaerat perspiciatis, iusto laboriosam eaque at ducimus voluptas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio fugiat sint accusantium magnam, enim aperiam harum cum, eos nam quis voluptas recusandae eveniet sed ex ad. Molestias at eos distinctio? Lorem ipsum dolor sit amet consectetur adipisicing elit. In culpa cumque enim voluptatum qui voluptate ab voluptas illum id amet magnam repellat eum, tempore dolore eveniet nisi nulla perspiciatis at.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam laboriosam quae amet reprehenderit vel temporibus dolorum optio esse! Quisquam cumque temporibus consectetur asperiores porro, quam perspiciatis fugit necessitatibus eos quis! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam alias distinctio temporibus eius atque est eligendi rem ad maxime error minima, excepturi quaerat perspiciatis, iusto laboriosam eaque at ducimus voluptas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio fugiat sint accusantium magnam, enim aperiam harum cum, eos nam quis voluptas recusandae eveniet sed ex ad. Molestias at eos distinctio? Lorem ipsum dolor sit amet consectetur adipisicing elit. In culpa cumque enim voluptatum qui voluptate ab voluptas illum id amet magnam repellat eum, tempore dolore eveniet nisi nulla perspiciatis at.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam laboriosam quae amet reprehenderit vel temporibus dolorum optio esse! Quisquam cumque temporibus consectetur asperiores porro, quam perspiciatis fugit necessitatibus eos quis! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam alias distinctio temporibus eius atque est eligendi rem ad maxime error minima, excepturi quaerat perspiciatis, iusto laboriosam eaque at ducimus voluptas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio fugiat sint accusantium magnam, enim aperiam harum cum, eos nam quis voluptas recusandae eveniet sed ex ad. Molestias at eos distinctio? Lorem ipsum dolor sit amet consectetur adipisicing elit. In culpa cumque enim voluptatum qui voluptate ab voluptas illum id amet magnam repellat eum, tempore dolore eveniet nisi nulla perspiciatis at.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam laboriosam quae amet reprehenderit vel temporibus dolorum optio esse! Quisquam cumque temporibus consectetur asperiores porro, quam perspiciatis fugit necessitatibus eos quis! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam alias distinctio temporibus eius atque est eligendi rem ad maxime error minima, excepturi quaerat perspiciatis, iusto laboriosam eaque at ducimus voluptas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio fugiat sint accusantium magnam, enim aperiam harum cum, eos nam quis voluptas recusandae eveniet sed ex ad. Molestias at eos distinctio? Lorem ipsum dolor sit amet consectetur adipisicing elit. In culpa cumque enim voluptatum qui voluptate ab voluptas illum id amet magnam repellat eum, tempore dolore eveniet nisi nulla perspiciatis at.</p>
 
 
     
