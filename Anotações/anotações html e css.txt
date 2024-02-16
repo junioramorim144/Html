@@ -144,5 +144,32 @@ __________________________________________________________
           Efeio zebrado = tbody > tr:nth-child(2n) {
         background-color: lightgray;
 
+
+        Cores na coluna da Tabela
+     
+        <table>
+        <colgroup>
+            <col class="col1">
+            <col class="col2">
+            <col class="col3">
+            <col class="col4" span="2"> <!--span replica a cor para o proximo bloco-->
+            <col class="col5">
+
+
+           (amenizando rolagem da tabela
+
+            <div id="container">
+           <table>
+
+           </table?>           
+           </div>
+           
+            <style>
+             #container {
+              orverflow-x:auto;
+              }
+            </style>
+            )          
+
          
 
