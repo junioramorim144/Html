@@ -54,6 +54,7 @@ ______________________________________________
 paragrafo no css (text-indent:30px;
 
 texto justificado no css (text-align: justify;)
+linha na horizontal na tela toda (<hr>)
 
 Espaços nos textos (margin: 15px 0px;)
 margin negativa vai para fora  (-10px)
@@ -169,7 +170,16 @@ __________________________________________________________
               orverflow-x:auto;
               }
             </style>
-            )          
+            )  
+_________________________________________________________________________________
+                 callbacks
+setTimeout = funciona uma vez com o tempo definido
+
+setInterval = funciona infinitamente com o tempo definido
+_________________________________________________________________________________
+
+indexOFF ('') faz uma varredura em uma string procurando por outro trecho de string
+        
 
          
 
